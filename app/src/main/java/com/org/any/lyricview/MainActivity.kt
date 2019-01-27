@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity() ,AnkoLogger {
 
         var song ="陈慧娴 - 千千阙歌"
 
+        titleTv.text =song
+
         lyric_v.setData(song)
 
         lyric_v.setPlayerSeek {
